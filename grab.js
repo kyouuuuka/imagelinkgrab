@@ -28,7 +28,7 @@
   "use strict";
 
   // Only keep image URLs matching this. Set to null to grab every image.
-  var ONLY = /^https:\/\/images\.deliveryhero\.io\/image\/menu-import-gateway-prd\//;
+  var ONLY = /^https:\/\/images\.deliveryhero\.io\/image\//i;
 
   function clean(u) {
     if (!u) return null;
